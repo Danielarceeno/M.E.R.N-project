@@ -15,6 +15,11 @@ Certifique-se de clonar o repositório para sua máquina local. Abra o terminal 
 ```bash
 git clone <URL_DO_REPOSITORIO>
 ```
+Crie uma pasta:
+
+```bash
+mkdir server
+```
 
 Depois de clonar, entre no diretório do servidor:
 
