@@ -24,7 +24,7 @@ mkdir server
 After cloning, enter the server directory:
 
 ```bash
-cdserver
+cd server
 ```
 
 ### Step 2: Installing Dependencies
