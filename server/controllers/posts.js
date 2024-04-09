@@ -1,4 +1,4 @@
-import Post from "../models/post.js";
+import Post from "../models/Post.js";
 import User from "../models/User.js";
 
 /* CREATE */
@@ -8,7 +8,7 @@ export const createPost = async (req, res) => {
     const user = await User.findById(userId);
     const newPost = new Post({
       userId,
-      firstName: user.firstName,
+      username: user.username,
       lastName: user.lastName,
       location: user.location,
       description,

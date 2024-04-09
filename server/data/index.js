@@ -14,7 +14,7 @@ const userIds = [
 export const users = [
   {
     _id: userIds[0],
-    firstName: "test",
+    username: "test",
     lastName: "me",
     email: "aaaaaaa@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -30,7 +30,7 @@ export const users = [
   },
   {
     _id: userIds[1],
-    firstName: "Steve",
+    username: "Steve",
     lastName: "Ralph",
     email: "thataaa@gmail.com",
     password: "$!FEAS@!O)_IDJda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -46,7 +46,7 @@ export const users = [
   },
   {
     _id: userIds[2],
-    firstName: "Some",
+    username: "Some",
     lastName: "Guy",
     email: "someguy@gmail.com",
     password: "da39a3ee5e6b4b0d3255bfef95601890afd80709",
@@ -62,7 +62,7 @@ export const users = [
   },
   {
     _id: userIds[3],
-    firstName: "Whatcha",
+    username: "Whatcha",
     lastName: "Doing",
     email: "whatchadoing@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -78,7 +78,7 @@ export const users = [
   },
   {
     _id: userIds[4],
-    firstName: "Jane",
+    username: "Jane",
     lastName: "Doe",
     email: "janedoe@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -94,7 +94,7 @@ export const users = [
   },
   {
     _id: userIds[5],
-    firstName: "Harvey",
+    username: "Harvey",
     lastName: "Dunn",
     email: "harveydunn@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -110,7 +110,7 @@ export const users = [
   },
   {
     _id: userIds[6],
-    firstName: "Carly",
+    username: "Carly",
     lastName: "Vowel",
     email: "carlyvowel@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -126,7 +126,7 @@ export const users = [
   },
   {
     _id: userIds[7],
-    firstName: "Jessica",
+    username: "Jessica",
     lastName: "Dunn",
     email: "jessicadunn@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
@@ -146,7 +146,7 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[1],
-    firstName: "Steve",
+    username: "Steve",
     lastName: "Ralph",
     location: "New York, CA",
     description: "Some really long random description",
@@ -167,7 +167,7 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[3],
-    firstName: "Whatcha",
+    username: "Whatcha",
     lastName: "Doing",
     location: "Korea, CA",
     description:
@@ -190,7 +190,7 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[4],
-    firstName: "Jane",
+    username: "Jane",
     lastName: "Doe",
     location: "Utah, CA",
     description:
@@ -214,7 +214,7 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[5],
-    firstName: "Harvey",
+    username: "Harvey",
     lastName: "Dunn",
     location: "Los Angeles, CA",
     description:
@@ -238,7 +238,7 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[6],
-    firstName: "Carly",
+    username: "Carly",
     lastName: "Vowel",
     location: "Chicago, IL",
     description:
@@ -262,7 +262,7 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[7],
-    firstName: "Jessica",
+    username: "Jessica",
     lastName: "Dunn",
     location: "Washington, DC",
     description:
