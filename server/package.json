@@ -8,7 +8,7 @@
     "gridfs-stream": "^1.1.1",
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.3.1",
+    "mongoose": "^8.3.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.4",
     "multer-gridfs-storage": "^5.0.2"
@@ -24,5 +24,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "A fast and minimalist web framework for Node.js. It is used to create web applications and APIs simply and efficiently.",
+  "devDependencies": {}
 }
