@@ -87,7 +87,7 @@ To get started, in your project's main folder, run the following commands:
 3. Install the required dependencies for the client:
 
      ```bash
-     npm i react-redux @reduxjs/toolkit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material
+     npm i react-redux @reduxjs/toolkit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material react-cookie
      ```
 
 Once this is done, whenever you want to start the server, make sure you start both the server and the client. You can do this by running `npm start` in the respective directories.
