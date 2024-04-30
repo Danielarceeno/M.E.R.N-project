@@ -31,6 +31,34 @@ export const getUserFriends = async (req, res) => {
 };
 
 /* UPDATE */
+export const updateUsername = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { newUsername } = req.body;
+
+    console.log('ID:', id);
+    console.log('New Username:', newUsername);
+
+    const user = await User.findById(id);
+    if (!user) {
+      return res.status(404).json({ message: "User undefined" });
+    }
+
+    user.username = newUsername;
+    await user.save();
+
+    console.log('Updated User:', user);
+
+    res.status(200).json(user);
+  } catch (err) {
+    console.log('Error:', err);
+    res.status(500).json({ message: err.message });
+  }
+};
+
+
+
+/* UPDATE */
 export const addRemoveFriend = async (req, res) => {
   try {
     const { id, friendId } = req.params;

@@ -24,6 +24,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "A fast and minimalist web framework for Node.js. It is used to create web applications and APIs simply and efficiently.",
-  "devDependencies": {}
+  "description": "A fast and minimalist web framework for Node.js. It is used to create web applications and APIs simply and efficiently."
 }
